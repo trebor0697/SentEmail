@@ -1,0 +1,7 @@
+﻿<StackLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactList.Controls.ItemView">
+
+    <Label Text="{Binding To}" Style="{StaticResource labelStyle}"/>
+    <Label Text="{Binding Subject}" Style="{StaticResource labelStyle}"/>
+</StackLayout>
